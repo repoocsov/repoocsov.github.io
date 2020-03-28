@@ -19,8 +19,9 @@ layout: base
     </header>
     <main>
       {% if site.compass.include_content %}
-        <div class="content">
-            <h1>Projects:</h1>
+      <div class="content">
+        {% include first.html %}
+          h1>Projects:</h1>
 
                 <h3>Book Manager</h3>
                 <a href="http://coopervos.ninja/mobileFinal/" target="_blank">Demo</a>
@@ -40,8 +41,6 @@ layout: base
                 <p>
                 WordPress website built for a non-profit volunteer group based out of Wisconsin. The team that developed this consisted of me (software-developer), a graphic design student, and two marketing students. Our team competed agianst two other working groups for this client. Our implementation was chosen. Communication between fellow team members and the client was paramount. Link to the website below.
                 </p>
-
-            
         </div>
       {% endif %}
     </main>
