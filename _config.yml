@@ -5,7 +5,7 @@ baseurl: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/coolguy.jpg"
+  logo: "/images/coolguy2.jpg.jpg"
   angular: "/images/angular.png"
   asp: "/images/asp.net.png"
   btc: "/images/blockexplorer.png"
